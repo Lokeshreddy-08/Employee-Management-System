@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;   /* Fix footer at bottom */
+  left: 0;
+  bottom: 0;
+  width: 100%;       /* Full width */
+  background-color: #222;  /* Dark background */
+  color: white;      /* White text */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 56px;
+}
+
+header {
+  position: fixed;   /* Fix header at top */
+  top: 0;
+  left: 0;
+  width: 100%;       /* Full width */
+  z-index: 1000;     /* Keep it above other content */
+}
